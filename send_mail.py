@@ -11,7 +11,7 @@ import os.path
 
 fromaddr = "bucbowie@gmail.com"
 toaddr = "bucbowie@gmail.com"
-print("Curr path = ",os.getcwd()) 
+
 with open('./{}'.format('secret.key'), 'r') as password:
     my_pw = password.read()
     my_pw = my_pw[:]
@@ -61,7 +61,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() 
 
 # Authentication 
-s.login(fromaddr, my_pw) #"cpcqxqdiiodemmje") 
+s.login(fromaddr, my_pw) 
 
 # Converts the Multipart msg into a string 
 text = msg.as_string() 
