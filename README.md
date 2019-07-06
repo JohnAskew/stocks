@@ -2,7 +2,7 @@
 ## Scripts to run stock reports on demand.
 ### Overview:
 ##### Sent9.py - Scrapes stock prices and creates visual; it saves visual as Figure1.png.
-##### send_email.py - Reads GMAIL credentials and uses GMAIL api to email Figure1.png.
+##### send_email.py - Reads GMAIL credentials and uses GMAIL API to email Figure1.png.
 ##### Dockerfile - If you are cool with Docker, then have at it...
 ### Setup:
 This solution uses GMAIL for emailing results, as the actual visual may not be presentable, if you are running in Docker or from a remote terminal. 
