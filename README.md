@@ -1,6 +1,7 @@
 # stocks
 ## Scripts to run stock reports on demand.
 ### Overview:
+##### Stocks_2.py - Standalone solution or run command line with 2 stock symbols as parameters.
 ##### Sent9.py - Scrapes stock prices and creates visual; it saves visual as Figure1.png.
 ##### send_email.py - Reads GMAIL credentials and uses GMAIL API to email Figure1.png.
 ##### Dockerfile - If you are cool with Docker, then have at it...
